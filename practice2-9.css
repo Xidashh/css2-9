@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 1920px;
+    padding: 64px 158px 154px 158px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+#Conteiner {
+    background-color: #E8EEFF;
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+
+
+
+
+}
+
+#firstTiTle {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    /* 111.111% */
+    letter-spacing: -1.44px;
+}
+
+#fistSpan {
+    color: #05F;
+}
+
+#secondSpan {
+    color: #6941C6;
+    text-decoration-line: underline;
+}
+
+#firstPharagrap {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+#firstFoto {
+    width: 1200px;
+    height: 800px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#secondConteiner {
+    /* display: inline-block; */
+    display: flex;
+    height: 210px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 64px 32px;
+    align-self: stretch;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    text-align: center;
+}
+
+#firstMiniConteiner {
+    height: 210px;
+    min-width: 320px;
+    padding: 16px;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#firstSVG {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+#secondtMiniConteiner {
+    min-width: 320px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#secondSVG {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+
+}
+
+#firstMiniConteiner p {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+#thirdMiniConteiner {
+    height: 210px;
+    min-width: 320px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#thirdSVG {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 12px;
+
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+#thirdConteiner {
+    display: flex;
+    width: 1216px;
+    align-items: center;
+
+
+    border-radius: 24px;
+    background: #53389E;
+    max-width: 100%;
+    box-shadow: 0px 20px 24px -4px var(--Colors-Effects-Shadows-shadow-xl_01, rgba(10, 13, 18, 0.08)), 0px 8px 8px -4px var(--Colors-Effects-Shadows-shadow-xl_02, rgba(10, 13, 18, 0.03)), 0px 3px 3px -1.5px var(--Colors-Effects-Shadows-shadow-xl_03, rgba(10, 13, 18, 0.04));
+}
+
+#secondFoto {
+    width: 480px;
+    min-height: 400px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 24px;
+}
+
+#sataiuri {
+    align-self: stretch;
+    color: #FFF;
+
+    /* Display md/Semibold */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 122.222% */
+    letter-spacing: -0.72px;
+}
+
+#bolop {
+    color: #E9D7FE;
+    align-self: stretch;
+    /* Text xl/Regular */
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-xl, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-xl, 30px);
+    /* 150% */
+}
+
+#firstInput {
+    color: #414651;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: var(--spacing-lg, 12px) 18px;
+   
+    gap: 6px;
+
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+
+}
+
+#secondInput {
+    border-radius:8px;
+    border: 2px solid #FFF;
+    background: #7F56D9;
+
+    display: inline-block;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:24px;
+    
+}
+
+#boloMiniConteiner {
+    padding: 64px;
+
+
+}
